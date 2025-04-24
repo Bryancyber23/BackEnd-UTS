@@ -24,5 +24,3 @@ const weaponSchema = new mongoose.Schema({
         required: [true, 'Ability weapon wajib diisi']
     },
 });
-
-module.exports = mongoose.model('Weapon', weaponSchema);
